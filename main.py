@@ -9,8 +9,8 @@ def main():
     Main orchestration script that processes PDF files and generates JSON outlines.
     """
     # Define input and output directory paths
-    input_dir = "/app/input"
-    output_dir = "/app/output"
+    input_dir = "./input"
+    output_dir = "./output"
     
     # Check if output directory exists, create if not
     if not os.path.exists(output_dir):
